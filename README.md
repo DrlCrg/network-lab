@@ -1,17 +1,21 @@
 # network-lab
 This is the process of creating a small network for our lab
 
+#We were given this scenario:
+![Screenshot 2024-02-22 161302](https://github.com/DrlCrg/network-lab/assets/160629376/201a3bd8-2c2c-4638-8353-9aa7ffcf3289)
+
 #stage 0
 
+This is what we started with: the WAN-cloud and the WAN-Switch.
 ![Stage0-NT](https://github.com/DrlCrg/network-lab/assets/160629376/5ddedfa0-6eee-4ebe-adf9-a7f125ab2be6)
 
-This is what we started with, the WAN-cloud and the WAN-Switch
 
 #stage 1 
 
 ![Stage01-NT](https://github.com/DrlCrg/network-lab/assets/160629376/2ad93266-929a-4eb0-aaa6-63dfb67fbebf)
 
-In this stage we added a Firewall, two switches, and a Windows 10 user. 
+We reserved 10.128.0.0/24 for our LAN. 
+This is where we also set up our DHCP server with the range  
 We then added the Windows 10 (win10) user to the LAN and modified our firewall settings using the GUI via our win10 workstation.
 
 #Stage 2
@@ -32,3 +36,8 @@ We added another Win2012 server to the workspace and joined it with the domain, 
 
 An Ubuntu server was set up and linked to the DMZ-SWITCH. DOKU-WIKI was also installed and configured. Then a VIP was set up for the webserver.
 
+#Stage 5
+
+![STAGE05-NT](https://github.com/DrlCrg/network-lab/assets/160629376/eb89ef6b-bdd4-4016-9db0-aca040f819d4)
+
+Here is where we added an FTP server
