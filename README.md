@@ -34,7 +34,7 @@ We added another Win2012 server to the workspace and joined it with the domain, 
 
 ![STAGE04-NT](https://github.com/DrlCrg/network-lab/assets/160629376/03b3808a-b796-47bb-a878-f3f7c5ff4b64)
 
-An Ubuntu server was set up and linked to the DMZ-SWITCH. DOKU-WIKI was also installed and configured. Then a VIP was set up for the webserver.
+An Ubuntu server was set up and linked to the DMZ-SWITCH. DOKU-WIKI was also installed and configured. Then a VIP was set up for the webserver so that if you access the server's ip it would forward it to the Dokuwiki page.
 
 #Stage 5
 
