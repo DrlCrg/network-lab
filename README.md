@@ -15,7 +15,7 @@ This is what we started with: the WAN-cloud and the WAN-Switch.
 ![Stage01-NT](https://github.com/DrlCrg/network-lab/assets/160629376/2ad93266-929a-4eb0-aaa6-63dfb67fbebf)
 
 We reserved 10.128.0.0/24 for our LAN. 
-This is where we also set up our DHCP server with the range  
+This is where we also set up our DHCP server and set up our DNS.
 We then added the Windows 10 (win10) user to the LAN and modified our firewall settings using the GUI via our win10 workstation.
 
 #Stage 2
@@ -40,4 +40,4 @@ An Ubuntu server was set up and linked to the DMZ-SWITCH. DOKU-WIKI was also ins
 
 ![STAGE05-NT](https://github.com/DrlCrg/network-lab/assets/160629376/eb89ef6b-bdd4-4016-9db0-aca040f819d4)
 
-Here is where we added an FTP server
+Here is where we added an FTP server and configured it so we could join it with the domain. 
